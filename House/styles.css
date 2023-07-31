@@ -1,0 +1,141 @@
+.base{
+    background-color: darkgrey;
+    height: 50px;
+    width: 2000px;
+    border: 10px solid grey;
+    padding: 10px;
+    margin-left: 0px;
+    position: fixed;
+    top: 600px;
+
+
+}
+.wall{
+    background-color: #B46060;
+    height: 250px;
+    width: 400px;   
+    position: relative;
+    left: 300px;
+    top: 93px;
+
+}
+.floor1{
+    background-color: lightgoldenrodyellow;
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    left: 500px;
+    top: 400px;
+    border-top: 4px solid gold;
+    border-left: 4px solid gold;
+    border-right: 4px solid gold;
+    border-bottom: 4px solid gold;
+    border-radius: 10px;
+
+}
+.fix{
+    position: fixed;
+}
+.wallroof{
+    height:250px;
+    width: 400px;
+    background-color: #7C3E66;
+    position: relative;
+    top: 95px;
+    left: 255px;
+    transform:skew(20deg);
+    
+    
+}
+.up-arrow {
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid transparent;
+    border-right: 150px solid transparent;
+      
+    border-bottom: 300px solid #A76F6F;
+    transform: skew(-26deg);
+    margin: 2rem;
+    position: absolute;
+    top: -83px;
+    left: -206px;
+    }
+.redroof{
+    height: 52px;
+    width: 400px;
+    position: absolute;
+    top: -52px;
+    transform:skew(deg);
+    background-color: darkred;
+
+
+}
+.mainwall{
+    height: 250px;
+    width: 250px;
+    background-color: #EBD8B2;
+    position: relative;
+    top: -157px;
+    left: 52px
+}
+.circle{
+    height: 75px;
+    width: 75px;
+    background-color: darksalmon;
+    border-radius: 50%;
+    transform:skew(10deg);
+    position: absolute;
+    top: 100px;
+    left: -25px;
+}
+.chimney{
+    height: 75px;
+    width: 75px;
+    background-color: darkolivegreen;
+    position: absolute;
+    left: 510px;
+    top: 1px;
+}
+.chimney-border{
+    height: 10px;
+    width: 75px;
+    background-color: orange;
+    position: absolute;
+    left: 505px;
+    top: -1px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.move{
+    position: fixed;
+    left: 500px;
+    
+}
+.door{
+    background-color: brown;
+    height: 200px;
+    width: 75px;
+    position: absolute;
+    left: 125px;
+    top: 400px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+
+}
+.doorknob{
+    height: 8px;
+    width: 8px;
+    background-color: gold;
+    border-radius: 50%;
+    border:2px dotted red;
+
+    
+    position: absolute;
+    top: 500px;
+    left: 180px;
+}
+body{
+    background-color: lightskyblue;
+}
